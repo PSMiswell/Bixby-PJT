@@ -19,8 +19,6 @@ module.exports.function = function getHospitalList (position, hospitalLists, hpI
   + "&pageNo=" + pageNo
   + "&numOfRows=" + num
 
-  console.log(url)
-
   var hList = http.getUrl(url,{format: 'xmljs'})
 
   var items = hList.response.body.items

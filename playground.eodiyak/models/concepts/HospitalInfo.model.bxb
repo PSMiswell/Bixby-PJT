@@ -16,4 +16,5 @@ structure (HospitalInfo) {
 		type (EndTime)
 		min (Optional) max (One)
 	}
+
 }
