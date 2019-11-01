@@ -1,4 +1,3 @@
-
 # Created by https://www.gitignore.io/api/git,vue,node,vuejs
 # Edit at https://www.gitignore.io/?templates=git,vue,node,vuejs
 
@@ -112,6 +111,8 @@ public/
 
 ### Vue ###
 .DS_*
+
+
 **/*.backup.*
 **/*.back.*
 
@@ -127,6 +128,7 @@ sketch
 ### Vuejs ###
 # Recommended template: Node.gitignore
 
+node_modules/
 dist/
 npm-debug.log
 yarn-error.log
