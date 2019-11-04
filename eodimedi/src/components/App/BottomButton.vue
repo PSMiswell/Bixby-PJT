@@ -1,6 +1,6 @@
 <template>
   <div id="bottom">
-    <button class="button" >
+    <button class="button">
       <i class="fas fa-search icon"></i>병원 찾기
     </button>
     <button class="button">
@@ -19,24 +19,12 @@
 
 <script>
 export default {
-  name: 'BottomButton',
-  methods: {
-    goToHospitalSubject: function() {    
-    }
-  },
+  name: 'BottomButton'
 }
 </script>
 
 <style>
 #bottom {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 70px;
-  background-color: #10BECB;
-}
-#a {
   position: fixed;
   bottom: 0;
   left: 0;
