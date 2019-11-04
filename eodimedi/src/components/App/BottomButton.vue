@@ -31,6 +31,7 @@ export default {
   width: 100%;
   height: 70px;
   background-color: #10BECB;
+  z-index: 2;
 }
 .button{
   width: 25%;
